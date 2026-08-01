@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: room-reservation
+  mongodb:
+    uri: ${MONGODB_URI}
+server:
+  port: 8080
+logging:
+  level:
+    org.springframework.data.mongodb.core.MongoTemplate: DEBUG
